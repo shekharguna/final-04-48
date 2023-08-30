@@ -22,33 +22,21 @@ export default function Navbar1(){
   <Navbar.Brand
 
     to="/navbars"
-  >
-
-   
-  <img src="src\assets\logo1.png" className="h-16"></img>
-
-   <span className="self-center whitespace-nowrap text-3xl font-algerian text-white">
-   
-    </span>
-    
-    
+  > 
+  <img src="src\assets\logo1.png" className="h-16"></img>  
   </Navbar.Brand>
   <Navbar.Toggle />
   <Navbar.Collapse>
    
-   <div className="flex gap-14">
+   <div className="flex flex-row gap-20 mr-32">
   <Link to="/" className=" font-semibold text-2xl font-sans  text-white hover:text-green-600  ">
       Home
       </Link>
-   {/* <Link to="/wishlist" className="font-light text-base font-sans  text-white hover:text-green-600  ">
-      Wishlist
-    </Link>*/}
+   
       <Link to="/shoppingcart" className="font-semibold text-2xl font-sans  text-white hover:text-green-600">
       Shopping Cart
       </Link>
-     {/* <Link to="/checkout" className="font-light text-base font-sans text-white  hover:text-green-600 ">
-      Checkout
-    </Link> */}
+     
     <Link to="/about1" className="font-semibold text-2xl font-sans  text-white hover:text-green-600 mr-60">
       About
     </Link>
@@ -72,10 +60,7 @@ export default function Navbar1(){
 
    
 
-    <div className="flex flex-row space-x-2 space-x-reverse">
-  
-    <img src="src\assets\customer.png" className="h-8 w-8 hover:bg-zinc-700"></img>
-    </div>
+    
   </Navbar.Collapse>
 </Navbar>
 </>

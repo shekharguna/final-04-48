@@ -23,7 +23,7 @@ export default function Home(){
    </div>
    <img src="src\assets\tagline.jpg" className="py-3"></img>
    <img src="src\assets\popular.jpg" className="py-3"></img>
-   <div className="grid grid-cols-3 gap-4 max-w-7xl">
+   <div className=" grid grid-cols-3 gap-4">
    <Link to="/tshirtprod">
    <img src="src\assets\tshirtsq.jpg"></img>
    </Link>
