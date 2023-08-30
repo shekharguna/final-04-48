@@ -2,7 +2,7 @@ import img1 from '../assets/t-shirts/chestudentcase.png'
 import img2 from '../assets/t-shirts/philosophycase.png'
 import img3 from '../assets/t-shirts/eatsleepcodecase.png'
 import img4 from '../assets/t-shirts/englishcase.png'
-import img5 from '../assets/t-shirts/historiancase.png'
+
 import img6 from '../assets/t-shirts/musiccase.png'
 import img7 from '../assets/t-shirts/psychologycase.png'
 import img8 from '../assets/t-shirts/zoologistcase.png'
@@ -53,7 +53,7 @@ const Casedata = {
       },
       {
         id: "y5",
-        img: img5,
+        img: img4,
         title: "I'm A Historian",
         desc: "Phone Case",
         price: 249,
