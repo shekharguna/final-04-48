@@ -2,7 +2,7 @@ import img1 from '../assets/t-shirts/chestudenthoodie.png'
 import img2 from '../assets/t-shirts/philosophyhoodie.png'
 import img3 from '../assets/t-shirts/eatsleepcodehoodie.png'
 import img4 from '../assets/t-shirts/englishhoodie.png'
-import img5 from '../assets/t-shirts/HISTORIANhoodie.png'
+
 import img6 from '../assets/t-shirts/musichoodie.png'
 import img7 from '../assets/t-shirts/psychologyhoodie.png'
 import img8 from '../assets/t-shirts/zoologisthoodie.png'
@@ -53,7 +53,7 @@ const Hoodiedata = {
       },
       {
         id: "z5",
-        img: img5,
+        img: img4,
         title: "I'm A Historian",
         desc: "Hoodie",
         price: 599,
