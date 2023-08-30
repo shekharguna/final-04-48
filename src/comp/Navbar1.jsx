@@ -1,10 +1,6 @@
 import { Navbar } from "flowbite-react"
 import { Link } from "react-router-dom"
 import { useAuth0 } from "@auth0/auth0-react"
-import image12 from "../assets/logosample.png"
-import Image22 from "../assets/search.png"
-import Image23 from "../assets/customer.png"
-import Image40 from "../assets/logo1.png"
 
 
 export default function Navbar1(){

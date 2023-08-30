@@ -2,12 +2,6 @@ import Carousel1 from "../comp/Carousel"
 import Card1 from "../comp/Card"
 import Card2 from "../comp/Card copy"
 import { Link } from "react-router-dom"
-import Image16 from "../assets/popular.jpg"
-import image17 from "../assets/tagline.jpg"
-import Image18 from "../assets/tshirtsq.jpg"
-import Image19 from "../assets/CASE.jpg"
-import Image20 from "../assets/hoodiessq.jpg"
-import Image21 from "../assets/tagline1.gif"
 
 
 export default function Home(){

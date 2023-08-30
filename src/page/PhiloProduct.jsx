@@ -1,6 +1,5 @@
 import { Card } from "flowbite-react";
-import { Link } from "react-router-dom";
-import Image33 from "../assets/eatsleepcode4.png";
+
 import { CartProvider, useCart } from "react-use-cart";
 import data from "../data/PhilosophyData";
 function ItemCard (props){

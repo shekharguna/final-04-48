@@ -1,4 +1,4 @@
-import image10 from "../assets/BANNER-TSHIRT.jpg"
+
 
 
 export default function Carousel(){

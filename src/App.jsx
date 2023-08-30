@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 
 import './App.css'
 import Navbar1 from './comp/Navbar1'
@@ -29,7 +29,7 @@ import About1 from './page/aboutus'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
@@ -60,7 +60,7 @@ function App() {
 
     <Route path="/philosophy" element={<CartProvider><Philosophy/></CartProvider>}></Route>
 
-    ]
+    
 
     <Route path="/zoology" element={<CartProvider><Zoology/></CartProvider>}></Route>
 

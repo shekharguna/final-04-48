@@ -1,8 +1,4 @@
-import { Card } from "flowbite-react"
-import image5 from "../assets/SIGMUND.jpg"
-import image6 from "../assets/HERODETUS.jpg"
-import image7 from "../assets/antoine.jpg"
-import image11 from "../assets/GEOFFERY.jpg"
+
 import { Link } from "react-router-dom"
 
 export default function Card2(){
