@@ -2,6 +2,12 @@ import Carousel1 from "../comp/Carousel"
 import Card1 from "../comp/Card"
 import Card2 from "../comp/Card copy"
 import { Link } from "react-router-dom"
+import img1 from "../assets/tagline.jpg"
+import img2 from "../assets/popular.jpg"
+import img3 from "../assets/tshirtsq.jpg"
+import img4 from "../assets/CASE.jpg"
+import img5 from "../assets/hoodiessq.jpg"
+import img6 from "../assets/tagline1.gif"
 
 
 export default function Home(){
@@ -15,20 +21,20 @@ export default function Home(){
     
  
    </div>
-   <img src="src\assets\tagline.jpg" className="py-3"></img>
-   <img src="src\assets\popular.jpg" className="py-3"></img>
+   <img src={img1} className="py-3"></img>
+   <img src={img2} className="py-3"></img>
    <div className=" grid grid-cols-3 gap-4">
    <Link to="/tshirtprod">
-   <img src="src\assets\tshirtsq.jpg"></img>
+   <img src={img3}></img>
    </Link>
    <Link to="/caseprod">
-   <img src="src\assets\CASE.jpg"></img>
+   <img src={img4}></img>
    </Link>
    <Link to="/hoodieprod">
-   <img src="src\assets\hoodiessq.jpg"></img>
+   <img src={img5}></img>
    </Link>
    </div>
-   <img src="src\assets\tagline1.gif" className="py-3"></img>
+   <img src={img6} className="py-3"></img>
    </>
     )
 }

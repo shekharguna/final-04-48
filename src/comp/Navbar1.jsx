@@ -1,6 +1,7 @@
 import { Navbar } from "flowbite-react"
 import { Link } from "react-router-dom"
 import { useAuth0 } from "@auth0/auth0-react"
+import img1 from "../assets/logo1.png"
 
 
 export default function Navbar1(){
@@ -19,7 +20,7 @@ export default function Navbar1(){
 
     to="/navbars"
   > 
-  <img src="src\assets\logo1.png" className="h-16"></img>  
+  <img src={img1} className="h-16"></img>  
   </Navbar.Brand>
   <Navbar.Toggle />
   <Navbar.Collapse>

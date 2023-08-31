@@ -1,4 +1,4 @@
-import { Card } from "flowbite-react"
+
 import image from "../assets/BABBAGE.jpg"
 import image1 from "../assets/socrates.jpg"
 import image2 from "../assets/beethoven.jpg"
@@ -12,7 +12,7 @@ export default function Card1(){
       <div className="m-2"> 
         <div className="md:max-w-sm  m1-16 "> 
         <Link to="/bcaproduct">
-  <img src="src\assets\BABBAGE.jpg" className="opacity-100 hover:opacity-80"></img> 
+  <img src={image} className="opacity-100 hover:opacity-80"></img> 
   </Link>
   </div> 
 </div> 
@@ -20,21 +20,21 @@ export default function Card1(){
 <div className="m-2"> 
         <div className="max-w-sm m1-16"> 
         <Link to="/philosophy">
-  <img src="src\assets\socrates.jpg" className="opacity-100 hover:opacity-80"></img> 
+  <img src={image1} className="opacity-100 hover:opacity-80"></img> 
   </Link>
   </div> 
 </div> 
 <div className="m-2"> 
         <div className="max-w-sm m1-16"> 
         <Link to="/musicproduct">
-  <img src="src\assets\beethoven.jpg" className="opacity-100 hover:opacity-80"></img>
+  <img src={image2} className="opacity-100 hover:opacity-80"></img>
   </Link>
   </div>
 </div>
 <div className="m-2">
         <div className="max-w-sm m1-16">
         <Link to="/zoology">
-  <img src="src\assets\ARISTOTLE.jpg" className="opacity-100 hover:opacity-80"></img>
+  <img src={image3} className="opacity-100 hover:opacity-80"></img>
   </Link>
   </div>
 </div>
