@@ -5,7 +5,7 @@ import img1 from "../assets/logo1.png"
 
 
 export default function Navbar1(){
-  const { loginWithRedirect, logout, user, isAuthenticated} = useAuth0();
+  const { loginWithRedirect, logout,  isAuthenticated} = useAuth0();
   
     return(
       <>
