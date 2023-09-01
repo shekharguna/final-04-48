@@ -23,7 +23,7 @@ export default function Home(){
    </div>
    <img src={img1} className="py-3"></img>
    <img src={img2} className="py-3"></img>
-   <div className=" grid grid-cols-3 gap-4">
+   <div className=" grid md:grid-cols-3 grid-cols-1 gap-4">
    <Link to="/tshirtprod">
    <img src={img3}></img>
    </Link>

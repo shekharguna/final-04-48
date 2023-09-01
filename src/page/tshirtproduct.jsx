@@ -43,8 +43,8 @@ function ItemCard1 (props){
 export default function Bcaproduct() {
   return (
     <>
-    <p class="text-left font-light text-5xl text-gray-900 mt-6 mb-10 hover:underline">T-Shirts Super Store</p>
-              <div className="grid grid-cols-4 gap-2">
+    <p class="text-left font-light text-2xl md:text-5xl text-gray-900 mt-6 mb-10 hover:underline">T-Shirts Super Store</p>
+              <div className="grid md:grid-cols-4 grid-cols-1 gap-2">
                 {data.productData.map((item, index)=>{
                   return(
                     

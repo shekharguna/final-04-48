@@ -44,8 +44,8 @@ export default function Bcaproduct() {
  
   return (
     <>
-     <p class="text-left font-light text-5xl text-gray-900 mt-6 mb-10 hover:underline">History Super Store</p>
-              <div className="grid grid-cols-3 gap-2">
+     <p class="text-left font-light text-2xl md:text-5xl text-gray-900 mt-6 mb-10 hover:underline">History Super Store</p>
+              <div className="grid md:grid-cols-3 gap-2 grid-cols-1">
                 {HistoryData.productData.map((item, index)=>{
                   return(
                     
