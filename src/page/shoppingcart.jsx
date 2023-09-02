@@ -12,7 +12,7 @@ function Cart() {
     totalItems
   } = useCart();
 
-  if (isEmpty) return <p>Your cart is empty</p>;
+  if (isEmpty) return<p>Your cart is empty</p>;
 
   const [show, setShow] = useState(false);
   return (
